@@ -14,10 +14,6 @@ add more games to the steam launcher, stylize it maybe
 
 make code more modular
 
-add blahaj
-
-update Neocities site to redirect to current GitHub repo
-
 delete or private the first repo
 
 add more things im interested in to maybe a showcase room of sorts

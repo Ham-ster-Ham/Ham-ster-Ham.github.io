@@ -1,5 +1,6 @@
 body {
     background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-image: url("images/xpbliss.jpg");
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
   }

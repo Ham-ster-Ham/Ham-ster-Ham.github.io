@@ -94,6 +94,7 @@ else:
 res10 = input("Do you want to be friends? ")
 if res10 in ["Yes", "yes", "Y", "y"]:
     print("Yay! It was great to talk with you, " + res1 + "!")
+    testscore +1
 else:
     print("That's ok. I hope you have a great day, " + res1 "!")
 

@@ -57,7 +57,7 @@ else:
 res6 = input("Do you like sports? (Y/N) ")
 for res6 in ["Yes", "yes", "Y", "y"]:
     sportres = input("Really? Which one? ")
-    if sportres == ["Baseball", "baseball"]:
+    if sportres in ["Baseball", "baseball"]:
         print("I love " + sportres + " Too! Go Twins!!")
         testscore +1
         continue
@@ -84,7 +84,18 @@ if res8 in ["Sweden", "sweden", "Denmark", "denmark", "Norway", "norway"]:
 else:
     print(res8 + "? Sounds lovely!")
 
-res9 = input("")
+res9 = input("What is your favorite season? ")
+if res9 in ["Winter", "winter", "Fall", "fall", "Autumn", "autumn"]:
+    print(res9 "?That's my favorite too!")
+    testscore +1
+else:
+    print("That's a fun time of year!")
+
+res10 = input("Do you want to be friends? ")
+if res10 in ["Yes", "yes", "Y", "y"]:
+    print("Yay! It was great to talk with you, " + res1 + "!")
+else:
+    print("That's ok. I hope you have a great day, " + res1 "!")
 
 print("end program")
 print("testscore was " + testscore)
